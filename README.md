@@ -1,2 +1,2 @@
 # crudApp
-Python and Flask utilizing SQLAlchemy
+Python and Flask app utilizing SQLAlchemy
