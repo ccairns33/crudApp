@@ -1,0 +1,112 @@
+body{
+    margin:0;
+    font-family: "Open Sans", sans-serif;
+}
+.content {
+    margin: 4rem auto;
+    width: 600px;
+}
+.header{
+    justify-content: center;
+    display: flex;
+}
+
+.table-header th{
+    background-color: rgb(39, 39, 39);
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding:1rem;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 4px;
+
+}
+tr:nth-child(2n) {
+    background-color: whitesmoke;
+}
+table tbody tr:hover {
+    background-color: #e1e1e1;
+}
+table tbody tr {
+    transition: background-color 150ms ease-out;
+    border-top: solid 1px #e3e3e3;
+}
+td{
+    padding:1rem 1rem;
+    align-items: flex-end;
+}
+
+.table-actions{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.table-actions a {
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: .8rem;
+    margin: 0 1rem 0 0;
+    transition: opacity .2s ease-out;
+
+}
+.table-actions a:hover {
+    cursor:pointer;
+    opacity:.7;
+}
+.row-delete{
+    font-family: sans-serif;
+    background: rgb(195, 26, 26) !important;
+    padding:.35rem;
+    color:white;
+    height: 1rem;
+    border-radius: 4px;
+
+}
+.row-update{
+    font-family: sans-serif;
+    background: #2b84e3 !important;
+    padding:.35rem;
+    color:white;
+    border-radius: 4px;
+    height: 0.9rem;
+    padding-top: 0.5rem;
+}
+
+.form-submit{
+    width:600px;
+    padding:.5rem 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+.form-submit>input[type="text"]{
+    width: 100%;
+    border: solid .1rem lightgrey;
+    border-radius: 4px;
+
+}
+.form-submit>input[type="submit"]{
+    padding: .5rem 1rem;
+    color: white;
+    background: #2bb273; 
+    border: 0.1rem solid #2bb273;
+    margin-left:.2rem;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    transition: opacity .2s ease-out;
+}
+.form-submit>input[type="submit"]:hover{
+    opacity: .8;
+    cursor: pointer;
+    
+}
+/* task classes */
+.task-id{
+    font-weight: bold;
+    margin-left:1.5rem
+}
